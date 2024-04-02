@@ -1,0 +1,119 @@
+/* Global reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1rem = 10px */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  background-color: #f7f7f7;
+  font-family: "Rethink-Sans", sans-serif;
+}
+
+h1,
+h2 {
+  color: #111111;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 4rem;
+  font-weight: 700;
+}
+
+/* Employee Table styles */
+
+.employee-table-container {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin: 4rem 4rem 1.8rem 4rem;
+  font-weight: 600;
+}
+
+.employee-table {
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 4rem;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 2rem;
+  border: 1px solid #ddd;
+}
+
+.employee-table tr {
+  color: #313131;
+  background-color: #f5f5f5;
+}
+
+.employee-table th {
+  background-color: #2e2e2e;
+  color: #fefefe;
+  text-align: left;
+  font-weight: 600;
+}
+
+.employee-table tbody tr.even-row {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: #fefefe;
+}
+
+.employee-table tbody tr:hover {
+  background-color: rgba(0, 0, 255, 0.6);
+  color: #fefefe;
+}
+
+/* Styling Employee Create Page */
+
+.container {
+  max-width: 70%;
+  padding: 4rem;
+  margin: 2rem 4rem 2rem 4rem;
+  border: 1px solid #313131;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.form-group {
+  margin-bottom: 2.4rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: rgba(0, 86, 179, 0.8);
+  color: #fefefe;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(0, 86, 179, 1);
+}
